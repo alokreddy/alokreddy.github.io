@@ -9,11 +9,31 @@
     	h1 { color: #FFFFFF; background-color:blue; font-family: 'Helvetica Neue', sans-serif; font-size: 180px; 
 		font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
 
+		h1:hover {
+    	color: #FFEB00;	
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+	}
+
+		h2:hover {
+    	color: #FFFFFF;	
+		background-color:green;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.5s ease-in-out;
+	}
+
+
+	
+		
 	h2 { color: #FFFFFF; background-color:#FFE015; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300;
 		line-height: 32px; margin: 0 0 72px; text-align: center; }
 
 	p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px;
-		line-height: 24px; margin: 0 0 24px; text-align: center; }   
+		line-height: 24px; text-align: center; }   
 	
 	.square{position: absolute; 
 		left: 40%;}
@@ -150,10 +170,15 @@ a.before:hover:before,a.after:hover:after{
 <h2>Welcome to Alok's GitHub page.</h2>
 	
 <p>You can access my works from here.</p>
-
 <span class="square">
-	<a class = "tenth before after" href="https://alokreddy.github.io/javascript/">Sales Dashboard [WIP]</a>
+	<a class = "tenth before after" title = "Simple interactive sales dashboard" href="https://alokreddy.github.io/javascript/">Sales Dashboard [WIP]</a>
 </span>	
+<br>
+<span class="square">
+	<a class = "tenth before after" title = "Table with drag and drop interface - made using Orb.js, react based javascript library!" href="https://alokreddy.github.io/javascript/textpivot/">Interactive Text Pivot</a>
+</span>	
+	
+
 	
 <script type="text/javascript">
 
